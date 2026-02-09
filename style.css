@@ -33,6 +33,14 @@ body {
     z-index: 1000;
 }
 
+#three-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -2;
+}
+
 .cursor-glow {
     position: fixed;
     width: 600px;
@@ -165,9 +173,7 @@ button,
 }
 
 .hero-visual {
-    position: relative;
-    width: 400px;
-    height: 400px;
+    display: none;
 }
 
 /* New Sections */
