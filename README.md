@@ -63,4 +63,4 @@ The production-ready files will be generated in the `dist/` directory.
 -   `package.json`: Project dependencies and scripts.
 
 ---
-© 2026 Feline Digital Solutions. All Rights Reserved.
+© 2022 Feline Digital Solutions. All Rights Reserved.
