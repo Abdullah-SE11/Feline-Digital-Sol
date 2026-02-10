@@ -1,66 +1,36 @@
-# Feline Digital Solutions 🚀
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**Agile. Precise. Elegant.**
+## Getting Started
 
-Feline Digital Solutions is a premium digital agency dedicated to transforming ideas into powerful digital experiences. We specialize in building extraordinary solutions where creativity meets technical excellence.
-
-## ✨ Features
-
--   **3D Interactive Experience**: Powered by Three.js with morphing glassmorphic geometry and reactive particle fields.
--   **Modern Tech Stack**: Built with Vite for lightning-fast development and optimized production builds.
--   **Premium Aesthetics**: Dark-themed UI with noise overlays, cursor glows, and elegant typography (Outfit).
--   **Fully Responsive**: Seamlessly scales from desktop to mobile devices.
-
-## 🛠️ Services Provided
-
--   📱 **Mobile Development**: Android & iOS apps built for performance.
--   💻 **Web & SaaS**: Modern web experiences and cloud-native solutions.
--   🎨 **UX Design**: Human-centric User Experience Design (UED).
--   ☁️ **Cloud Solutions**: Robust cloud application development.
--   📈 **Digital Strategy**: Marketing precision and technical content.
--   ⚡ **Operations**: Professional editing and business accounting services.
-
-## 🚀 Getting Started
-
-### Prerequisites
-
--   [Node.js](https://nodejs.org/) (v16.0.0 or higher)
--   [npm](https://www.npmjs.com/)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Abdullah-SE11/Feline-Digital-Sol.git
-    cd Feline-Digital-Sol
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Run development server:**
-    ```bash
-    npm run dev
-    ```
-
-The application will be available at `http://localhost:5173/`.
-
-### 🏗️ Build for Production
+First, run the development server:
 
 ```bash
-npm run build
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-The production-ready files will be generated in the `dist/` directory.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📁 Project Structure
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
--   `index.html`: Main entry point and layout.
--   `style.css`: Custom premium styling and layout.
--   `script.js`: Three.js 3D logic and interactive animations.
--   `package.json`: Project dependencies and scripts.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
-© 2022 Feline Digital Solutions. All Rights Reserved.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
