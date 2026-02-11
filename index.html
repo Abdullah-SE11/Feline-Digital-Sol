@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feline Digital Solutions | Agile. Precise. Elegant.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Feline Digital Solutions provides agile, precise, and elegant technology services.">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <canvas id="three-canvas"></canvas>
+    <div class="cursor-glow"></div>
+
+    <nav>
+        <div class="logo">FELINE<span>.DIGITAL</span></div>
+        <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="https://x.com/Joe_Black_Jack" target="_blank" rel="noopener">X</a>
+            <a href="https://www.instagram.com/abdullah._dev/" target="_blank" rel="noopener">IG</a>
+            <a href="https://www.linkedin.com/company/feline-media-marketing/" target="_blank" rel="noopener">LI</a>
+            <a href="#contact" class="btn-primary">Connect</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-wrapper">
+                <div class="hero-layer layer-bg" data-speed="0.2">
+                    <div class="hero-bg-visual"></div>
+                </div>
+                <div class="hero-layer layer-gradient"></div>
+                <div class="hero-layer layer-content" data-speed="0.5">
+                    <div class="hero-content">
+                        <h1 class="reveal-text">Transforming Ideas into <span>Digital Excellence</span></h1>
+                        <p class="subtitle">Where creativity meets results. We build extraordinary digital experiences through
+                            innovation and technology.</p>
+                        <div class="cta-group">
+                            <a href="#services" class="btn-main">Our Services</a>
+                            <a href="#contact" class="btn-secondary">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-layer layer-fg" data-speed="0.8">
+                    <div class="hero-fg-accent"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-tag">About Us</div>
+            <h2>Agile Solutions for <span>Modern Growth</span></h2>
+            <p>At Feline Digital Solutions, we transform ideas into powerful digital experiences. From web and app
+                development to custom software solutions, we help startups, small businesses, and corporates grow
+                through innovation and technology. Let’s build something extraordinary together.</p>
+        </section>
+
+        <section id="services" class="services">
+            <div class="section-tag">Services</div>
+            <h2>Tailored Digital <span>Capabilities</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Dev</h3>
+                    <p>Android & iOS Development built for performance and scale.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web & SaaS</h3>
+                    <p>Modern Web Development and Cloud-native SaaS solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UX Design</h3>
+                    <p>User Experience Design (UED) that prioritizes the human element.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Robust Cloud Application Development and technical infrastructure.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Digital Strategy</h3>
+                    <p>Digital Marketing and content precision through Technical Writing.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Operations</h3>
+                    <p>Professional Editing and Accounting services for seamless business growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-tag">Contact Us</div>
+            <h2>Let's Build <span>Something Extraordinary</span></h2>
+
+            <div class="contact-card">
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-main">Send Message</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h4>Direct Reach</h4>
+                            <p>hello@feline.digital</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Current Focus</h4>
+                            <p>Taking on select projects for Q2 2026.</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Social Synergy</h4>
+                            <div class="social-circles">
+                                <a href="https://x.com/Joe_Black_Jack" target="_blank" class="social-circle">X</a>
+                                <a href="https://www.instagram.com/abdullah._dev/" target="_blank"
+                                    class="social-circle">IG</a>
+                                <a href="https://www.linkedin.com/company/feline-media-marketing/" target="_blank"
+                                    class="social-circle">LI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">FELINE<span>.DIGITAL</span></div>
+            <div class="footer-socials">
+                <a href="https://x.com/Joe_Black_Jack" target="_blank">Twitter / X</a>
+                <a href="https://www.instagram.com/abdullah._dev/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/company/feline-media-marketing/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2022 Feline Digital Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
