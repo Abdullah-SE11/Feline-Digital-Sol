@@ -1,4 +1,13 @@
 // Navigation / Scroll Logic
+const nav = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+    }
+});
+
 const smoothScrollTo = (targetY, duration = 1000) => {
     const startY = window.scrollY;
     const diff = targetY - startY;
@@ -47,9 +56,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
 
         const tid = this.getAttribute('href');
+        if (tid === '#') return;
         const target = document.querySelector(tid);
         if (target) {
-            const pos = tid === '#about' ? 0 : target.offsetTop - 80;
+            const pos = target.offsetTop - 80;
             smoothScrollTo(pos, 800);
         }
     });
